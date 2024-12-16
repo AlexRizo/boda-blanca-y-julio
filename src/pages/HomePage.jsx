@@ -21,10 +21,6 @@ export const HomePage = () => {
           </p>
         </div>
         <div className="absolute w-full h-[400px] bg-gradient-to-t from-[#000000] to-transparent bottom-0 hidden xl:block"></div>
-        <div className="absolute w-full xl:hidden">
-          <div className="w-full h-[200px] bg-gradient-to-t from-[#57442E] to-transparent "></div>
-          <div className="w-full h-[200px] bg-[#57442E]"></div>
-        </div>
         <Separator position="-bottom-32 z-10" />
       </div>
 
@@ -92,10 +88,10 @@ export const HomePage = () => {
 
             <Article title="Mesa de Regalos" subtitle="Liverpool - 51429397" />
         </div>
-        <Separator position="-bottom-28 z-10" />
+        <Separator position="-bottom-28 z-10 hidden xl:block" />
       </div>
 
-      <div className="w-full cormorant-garamond text-white text-[50px] xl:text-[70px] font-bold text-center py-14 mt-14">
+      <div className="w-full cormorant-garamond text-white text-[50px] xl:text-[70px] font-bold text-center py-5 xl:py-14 xl:mt-14">
         <h1>Blanca & Julio</h1>
       </div>
     </section>
