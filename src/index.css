@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Para Firefox */
+    -ms-overflow-style: none;  /* Para Internet Explorer y Edge */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Para Chrome, Safari y Opera */
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+}
+
+.cormorant-garamond {
+    font-family: "Cormorant Garamond", serif;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 20px rgba(144, 144, 144, 0.5);
+}
