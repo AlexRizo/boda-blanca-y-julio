@@ -59,7 +59,7 @@ export const HomePage = () => {
             />
           </div>
         </div>
-        <Separator position="-bottom-28" />
+        <Separator position="-bottom-28 z-10" />
       </div>
 
       <div className="h-auto w-full bg-[url('/img/bg-yellow.jpg')] bg-cover py-32 relative">
@@ -92,7 +92,7 @@ export const HomePage = () => {
 
             <Article title="Mesa de Regalos" subtitle="Liverpool - 51429397" />
         </div>
-        <Separator position="-bottom-28" />
+        <Separator position="-bottom-28 z-10" />
       </div>
 
       <div className="w-full cormorant-garamond text-white text-[50px] xl:text-[70px] font-bold text-center py-14 mt-14">
