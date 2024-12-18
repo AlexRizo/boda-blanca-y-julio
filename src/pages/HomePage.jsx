@@ -9,10 +9,10 @@ export const HomePage = () => {
     <section className="bg-[#000000]">
       <div className="h-screen w-full flex items-center justify-center bg-[url('/img/bg-1.jpg')] bg-cover bg-center xl:bg-top relative">
         <div className="text-white text-center relative z-10 mb-10 xl:mb-28">
-          <h1 className="cormorant-garamond text-[85px] leading-[.8] xl:leading-normal xl:text-[120px] text-shadow font-bold mb-10 xl:m-0">
-            Blanca & Julio
+          <h1 className="cormorant-garamond text-[85px] leading-[1] xl:text-[120px] text-shadow font-bold mb-10 xl:m-0">
+            Bianca &<br/> Julio Eduardo
           </h1>
-          <p className="text-xl xl:text-3xl font-light">
+          <p className="text-xl xl:text-3xl font-light xl:mt-10">
             Con la bendición de Dios, el amor y el apoyo incondicional
             <br />
             de nuestros padres,&nbsp;
@@ -31,12 +31,12 @@ export const HomePage = () => {
               title="PADRES"
               custom="bg-[#2c2c2c]"
               woman={{
-                mother: "Ma. Guadalupe Velazco Zamora",
+                mother: "Ma. Guadalupe Velasco Zamora",
                 father: "Oscar Guerrero Campos",
               }}
               man={{
                 mother: "Soledad Núñez Chávez",
-                father: "Francisco Alcaraz Gutierrez",
+                father: "Francisco Alcaraz Gutiérrez",
               }}
             />
           </div>
@@ -91,8 +91,18 @@ export const HomePage = () => {
         <Separator position="-bottom-28 z-10 hidden xl:block" />
       </div>
 
+      <div className="text-white text-center py-24 px-10">
+        <h1 className="text-4xl font-medium">Si deseas darnos un regalo económico en efectivo, puedes hacerlo aquí:</h1>
+        <div className="text-3xl font-light my-8">
+          <p>4152 3143 8151 6098</p>
+          <div className="border border-white w-24 my-5 mx-auto"></div>
+          <p>BBVA</p>
+        </div>
+        <h2 className="text-4xl">O bien, puedes entregarlo el día de la boda.</h2>
+      </div>
+
       <div className="w-full cormorant-garamond text-white text-[50px] xl:text-[70px] font-bold text-center py-5 xl:py-14 xl:mt-14">
-        <h1>Blanca & Julio</h1>
+        <h1>Bianca &<br/> Julio Eduardo</h1>
       </div>
     </section>
   );
